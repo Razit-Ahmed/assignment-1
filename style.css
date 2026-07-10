@@ -127,3 +127,64 @@ font-size: 20px;
 }
 
 /* meet speaker end */
+
+/* spot card */
+.spot{
+    margin: 10px 8%; 
+
+}
+
+.spot .title{
+    text-align: center;
+    display: grid;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+.spot .title h1{
+    font-size: 48px;
+}
+
+.spot .title p{
+    font-size: 16px;
+}
+
+section .spot-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.spot .spot-card .card-1{
+    border: 1px solid #888888;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.spot .spot-card .card-1 .top{
+    padding: 10px;
+}
+.spot .spot-card .card-1 ul{
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.spot .spot-card .card-1 ul li::marker{
+
+    color: blue;
+}
+.spot .spot-card .card-1 .btn{
+    text-align: center;
+    
+}
+.spot .spot-card .card-1 button{
+     background-color: white;
+    color: #1d4ed8;
+    height: 56px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: large;
+    border: 1px solid #1d4ed8;
+}
+/* spot card  end*/
