@@ -32,8 +32,45 @@ nav .right button{
     color: white;
     height: 56px;
     width: 192px;
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: large;
 }
 
 /* nav end */
+
+/* hero section */
+
+
+.banner{
+    background-image:
+     radial-gradient(circle, rgba(0,0,0,0.2) 30%, rgba(0,0,0,0.8) 100%),
+    url("./assets/banner.jpg");
+    height:86vh;
+    text-align: center;
+}
+
+
+
+.banner h1{
+    color: white;
+    padding-top: 150px;
+    font-size: 80px;
+}
+
+.banner p{
+    color: white;
+    padding-top: 15px;
+    font-size: 22px;
+}
+
+.banner button{
+     background-color: #1d4ed8;
+    color: white;
+    height: 56px;
+    width: 192px;
+    border-radius: 10px;
+    font-size: large;
+    margin-top: 150px;
+}
+
+/* hero section end */
