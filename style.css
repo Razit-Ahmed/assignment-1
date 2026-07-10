@@ -1,3 +1,39 @@
 *{
-    background-color: red;
+    padding: 0px;
+    margin: 0px;
 }
+/* NAV  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 115px;
+    align-items: center;
+    
+    
+}
+
+nav .middle ul{
+    display: flex;
+    gap: 24px;
+    
+}
+
+nav .middle ul li{
+    list-style: none;
+}
+
+nav .middle ul a{
+    text-decoration: none;
+}
+
+nav .right button{
+    background-color: #1d4ed8;
+    color: white;
+    height: 56px;
+    width: 192px;
+    border-radius: 15px;
+    font-size: large;
+}
+
+/* nav end */
