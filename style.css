@@ -363,3 +363,32 @@ font-size:15px;
 }
 
 }
+
+/* footer */
+
+footer{
+    background-color: #0D1B2A;
+}
+
+footer .upper{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer .upper .right{
+    color: white;
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+}
+
+footer .lower{
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
