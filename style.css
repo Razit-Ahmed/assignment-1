@@ -188,3 +188,178 @@ section .spot-card{
     border: 1px solid #1d4ed8;
 }
 /* spot card  end*/
+
+
+
+/* ai made section  */
+
+/*========== EVENT HIGHLIGHT SECTION ==========*/
+
+.event-highlights{
+    width:100%;
+    padding:90px 0;
+    background:#fff;
+}
+
+.event-heading{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.event-heading h2{
+    font-size:42px;
+    color:#1a1a1a;
+    margin-bottom:10px;
+    font-weight:700;
+}
+
+.event-heading p{
+    color:#777;
+    font-size:17px;
+}
+
+.highlight-container{
+    max-width:1200px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.highlight-card{
+
+    background:#fff;
+    border-radius:18px;
+    padding:35px 25px;
+
+    text-align:center;
+
+    border:1px solid #e7e7e7;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+    cursor:pointer;
+}
+
+.highlight-icon{
+
+    width:75px;
+    height:75px;
+
+    background:#edf2ff;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin:auto;
+    margin-bottom:20px;
+
+    font-size:34px;
+
+    transition:.35s;
+}
+
+.highlight-card h3{
+
+    font-size:24px;
+    color:#222;
+
+    margin-bottom:12px;
+
+    transition:.35s;
+}
+
+.highlight-card p{
+
+    color:#666;
+    line-height:1.6;
+
+    transition:.35s;
+}
+
+.highlight-card:hover{
+
+    background:#2f56ff;
+
+    transform:translateY(-12px);
+}
+
+.highlight-card:hover h3,
+.highlight-card:hover p{
+
+    color:#fff;
+}
+
+.highlight-card:hover .highlight-icon{
+
+    background:#fff;
+}
+
+.highlight-btn{
+
+    display:block;
+
+    width:220px;
+
+    margin:55px auto 0;
+
+    text-align:center;
+
+    padding:16px;
+
+    text-decoration:none;
+
+    color:#fff;
+
+    background:#2f56ff;
+
+    border-radius:8px;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.highlight-btn:hover{
+
+    background:#1539cf;
+}
+
+/*========== Responsive ==========*/
+
+@media(max-width:992px){
+
+.highlight-container{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:600px){
+
+.highlight-container{
+
+grid-template-columns:1fr;
+
+}
+
+.event-heading h2{
+
+font-size:32px;
+
+}
+
+.event-heading p{
+
+font-size:15px;
+
+}
+
+}
